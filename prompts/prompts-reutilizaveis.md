@@ -1,8 +1,8 @@
 # Prompts Reutilizáveis
 
-Este documento reúne prompts que podem ser reutilizados durante o estudo de Python.
+Este documento reúne prompts que podem ser reutilizados durante o estudo de Python com apoio do NotebookLM.
 
-## Aprender um conceito
+## 📚 Aprender um conceito
 
 ```text
 Explique [CONCEITO] em Python para alguém que está começando a estudar a linguagem.
@@ -16,7 +16,11 @@ Inclua:
 - exercício.
 
 Utilize prioritariamente as fontes disponíveis neste notebook.
+```
 
+## 🧠 Revisar um conceito
+
+```text
 Faça uma revisão sobre [CONCEITO].
 
 Faça primeiro 5 perguntas sem apresentar as respostas.
@@ -26,7 +30,21 @@ Depois que eu responder:
 - explique meus erros;
 - identifique lacunas;
 - recomende o que devo revisar.
+```
 
+## 💻 Criar exercícios
+
+```text
+Crie 5 exercícios sobre [CONCEITO] em Python.
+
+Organize os exercícios do nível básico ao intermediário.
+
+Não apresente as soluções inicialmente.
+```
+
+## 🐞 Analisar código
+
+```text
 Analise o código Python abaixo.
 
 Não forneça imediatamente a solução.
@@ -40,9 +58,4 @@ Primeiro:
 Código:
 
 [COLE O CÓDIGO]
-
-
-Commit:
-
-```text
-docs: add reusable study prompts
+```
