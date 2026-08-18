@@ -1,7 +1,7 @@
 nome = "Patricia"
-idade = 37
+cidade = "São Paulo"
 linguagem = "Python"
 
 print(nome)
-print(idade)
+print(cidade)
 print(linguagem)
